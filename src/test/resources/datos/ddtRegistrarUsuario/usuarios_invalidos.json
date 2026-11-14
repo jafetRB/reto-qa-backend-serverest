@@ -1,0 +1,17 @@
+[
+  {
+    "caso": "Nombre en blanco",
+    "payload": { "nome": "", "email": "test1@ejemplo.com", "password": "123", "administrador": "true" },
+    "errorEsperado": { "nome": "nome não pode ficar em branco" }
+  },
+  {
+    "caso": "Email sin dominio",
+    "payload": { "nome": "Pedro", "email": "pedro@", "password": "123", "administrador": "false" },
+    "errorEsperado": { "email": "email deve ser um email válido" }
+  },
+  {
+    "caso": "Administrador booleano en vez de string",
+    "payload": { "nome": "Maria", "email": "maria@ejemplo.com", "password": "123", "administrador": "si" },
+    "errorEsperado": { "administrador": "administrador deve ser 'true' ou 'false'" }
+  }
+]

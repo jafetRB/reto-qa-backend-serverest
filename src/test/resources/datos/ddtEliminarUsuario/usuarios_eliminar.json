@@ -1,0 +1,20 @@
+[
+  {
+    "perfil": "Cliente estándar sin carrito",
+    "payload": {
+      "nome": "Cliente Para Eliminar",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "false"
+    }
+  },
+  {
+    "perfil": "Administrador sin carrito",
+    "payload": {
+      "nome": "Admin Para Eliminar",
+      "email": "plantilla@correo.com",
+      "password": "Password456",
+      "administrador": "true"
+    }
+  }
+]

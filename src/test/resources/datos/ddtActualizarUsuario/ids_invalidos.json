@@ -1,0 +1,42 @@
+[
+  {
+    "caso": "ID con menos de 16 caracteres",
+    "idInvalido": "id-corto-123",
+    "payload": {
+      "nome": "Clarita1 Yaipen",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    }
+  },
+  {
+    "caso": "ID con más de 16 caracteres",
+    "idInvalido": "0uxuPY0cbmQhpEz99999",
+    "payload": {
+      "nome": "Clarita2 Yaipen",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    }
+  },
+  {
+    "caso": "ID de 16 caracteres con símbolos especiales",
+    "idInvalido": "0uxuPY0cbmQhpE@#",
+    "payload": {
+      "nome": "Clarita3 Yaipen",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    }
+  },
+  {
+    "caso": "ID de 16 caracteres con espacios en blanco",
+    "idInvalido": "0uxuPY0cbm QhpEz",
+    "payload": {
+      "nome": "Clarita4 Yaipen",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "caso": "Duplicado con distinto nombre y mismo rol",
+    "usuarioOriginal": {
+      "nome": "Usuario Original",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password123",
+      "administrador": "false"
+    },
+    "usuarioDuplicado": {
+      "nome": "Usuario Duplicado",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password123",
+      "administrador": "false"
+    }
+  },
+  {
+    "caso": "Duplicado intentando cambiar rol de cliente a administrador",
+    "usuarioOriginal": {
+      "nome": "Cliente Base",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password123",
+      "administrador": "false"
+    },
+    "usuarioDuplicado": {
+      "nome": "Intento Admin",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password999",
+      "administrador": "true"
+    }
+  }
+]

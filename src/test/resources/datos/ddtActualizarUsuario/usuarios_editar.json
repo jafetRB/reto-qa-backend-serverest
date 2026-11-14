@@ -1,0 +1,32 @@
+[
+  {
+    "caso": "Cambiar rol de Administrador a Cliente y actualizar credenciales",
+    "usuarioInicial": {
+      "nome": "Nombre Original",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    },
+    "usuarioEditado": {
+      "nome": "Nombre Actualizado",
+      "email": "plantilla@correo.com",
+      "password": "NuevaPassword456",
+      "administrador": "false"
+    }
+  },
+  {
+    "caso": "Cambiar rol de Cliente a Administrador manteniendo contraseña",
+    "usuarioInicial": {
+      "nome": "Lucia Mendez",
+      "email": "plantilla@correo.com",
+      "password": "MiPassword789",
+      "administrador": "false"
+    },
+    "usuarioEditado": {
+      "nome": "Lucia Mendez Admin",
+      "email": "plantilla@correo.com",
+      "password": "MiPassword789",
+      "administrador": "true"
+    }
+  }
+]

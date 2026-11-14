@@ -1,0 +1,44 @@
+[
+  {
+    "caso": "Cliente intenta tomar el correo de un Administrador",
+    "usuarioA": {
+      "nome": "Admin Original",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    },
+    "usuarioB": {
+      "nome": "Cliente Original",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "false"
+    },
+    "usuarioBEditado": {
+      "nome": "Cliente Editado",
+      "email": "plantilla@correo.com",
+      "password": "Password456",
+      "administrador": "false"
+    }
+  },
+  {
+    "caso": "Administrador intenta tomar el correo de otro Administrador",
+    "usuarioA": {
+      "nome": "Admin Uno",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    },
+    "usuarioB": {
+      "nome": "Admin Dos",
+      "email": "plantilla@correo.com",
+      "password": "Password123",
+      "administrador": "true"
+    },
+    "usuarioBEditado": {
+      "nome": "Admin Dos Editado",
+      "email": "plantilla@correo.com",
+      "password": "Password789",
+      "administrador": "true"
+    }
+  }
+]

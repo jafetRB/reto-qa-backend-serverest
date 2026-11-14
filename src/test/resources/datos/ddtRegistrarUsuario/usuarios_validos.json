@@ -1,0 +1,20 @@
+[
+  {
+    "rol": "Administrador",
+    "payload": {
+      "nome": "Andres Mendoza",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password123",
+      "administrador": "true"
+    }
+  },
+  {
+    "rol": "Cliente estándar",
+    "payload": {
+      "nome": "Jafet Ríos",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password456",
+      "administrador": "false"
+    }
+  }
+]

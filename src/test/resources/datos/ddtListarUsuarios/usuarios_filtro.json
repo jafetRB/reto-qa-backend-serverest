@@ -1,0 +1,21 @@
+[
+  {
+    "caso": "Filtrar usuario cliente por nombre, correo y rol false",
+    "payload": {
+      "nome": "Ana Torres",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password123",
+      "administrador": "false"
+    }
+  },
+  {
+    "caso": "Filtrar usuario administrador por nombre, correo y rol true",
+    "payload": {
+      "nome": "Roberto Silva",
+      "email": "plantilla@ejemplo.com",
+      "password": "Password456",
+      "administrador": "true"
+    }
+  }
+]
+

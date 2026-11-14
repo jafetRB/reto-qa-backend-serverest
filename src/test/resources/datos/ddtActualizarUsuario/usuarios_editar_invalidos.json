@@ -1,0 +1,41 @@
+[
+  {
+    "caso": "Todos los campos obligatorios vacíos o con formato inválido",
+    "payload": {
+      "nome": "",
+      "email": "correo-sin-formato",
+      "password": "",
+      "administrador": "si"
+    },
+    "errorEsperado": {
+      "nome": "nome não pode ficar em branco",
+      "email": "email deve ser um email válido",
+      "password": "password não pode ficar em branco",
+      "administrador": "administrador deve ser 'true' ou 'false'"
+    }
+  },
+  {
+    "caso": "Solo el campo email sin arroba ni dominio",
+    "payload": {
+      "nome": "Carlos Ruiz",
+      "email": "carlos-sin-arroba",
+      "password": "Password123",
+      "administrador": "true"
+    },
+    "errorEsperado": {
+      "email": "email deve ser um email válido"
+    }
+  },
+  {
+    "caso": "Solo el campo administrador con valor distinto a true o false",
+    "payload": {
+      "nome": "Carlos Ruiz",
+      "email": "carlos.valido@correo.com",
+      "password": "Password123",
+      "administrador": "1"
+    },
+    "errorEsperado": {
+      "administrador": "administrador deve ser 'true' ou 'false'"
+    }
+  }
+]
